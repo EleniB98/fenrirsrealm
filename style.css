@@ -6,12 +6,24 @@
 }
 
 /* Styling for the body */
+/* Apply the background image to the whole page */
 body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg'); /* Update this path based on where you store the image */
+    background-size: cover;  /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    height: 100vh; /* Ensures the background covers the full viewport height */
+}
+
+/* Optional: Style for any text over the background */
+h1, p {
+    color: white;  /* Ensures text is visible on the dark background */
+    text-align: center;
+    padding-top: 20%;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-    line-height: 1.6;
 }
 
 /* Styling for the header */

@@ -1,11 +1,49 @@
+/* Basic reset to remove default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
     color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Styling for the header */
+header {
+    background-color: #0055a5;
+    color: white;
+    padding: 20px;
     text-align: center;
-    margin: 50px;
 }
 
 h1 {
-    color: #0055a5;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
 }
